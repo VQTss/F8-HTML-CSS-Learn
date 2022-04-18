@@ -1,0 +1,16 @@
+:root{
+    /* Global variable */
+    --my_variable : red; 
+}
+
+h1{
+    /* Local variable */
+    --variable_local: green;
+    color: var(--variable_local);
+}
+h2{
+    color: var(--my_variable);
+}
+h3{
+    color: var(--my_variable);
+}

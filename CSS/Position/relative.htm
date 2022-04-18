@@ -1,0 +1,28 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <style>
+        html,body{
+            margin: 0;
+        }
+        /* Đối tượng có vị trí tương đối thì nó lấy vị trị hiện tại để làm gốc tọa độ */
+        h1{
+            /* Vị trí tương đối không bị phụ thuộc vào vị trí nào cả ( nghĩa là đứng im) */
+            position: relative;
+            /* Ngoài ra còn có left right bottom */
+            top: 10%; 
+            /* Note: top - left - right - bottom chỉ hoạt động khi có position */
+        }
+</style>
+</head>
+<body>
+    <h1>Position</h1>
+    <ul>
+        <li>Relative</li>
+        <li>Absolute</li>
+        <li>Fixed</li>
+        <li>Sticky</li>
+    </ul>
+</body>
+</html>
